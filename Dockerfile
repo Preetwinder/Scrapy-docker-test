@@ -20,3 +20,5 @@ RUN sudo pip install frontera[distributed,zeromq,sql]
 RUN git clone https://github.com/scrapinghub/frontera.git
 
 RUN sudo pip install -r frontera/requirements/examples.txt
+
+CMD ping 8.8.8.8
